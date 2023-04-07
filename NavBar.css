@@ -1,0 +1,27 @@
+﻿/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: #084793;
+    overflow: auto;
+    margin: 15px;
+}
+
+    /* Navbar links */
+    .navbar a {
+        float: left;
+        text-align: center;
+        padding: 5px;
+        color: white;
+        text-decoration: none;
+        font-size: 11.5px;
+        font-family: 'SF Pro Display', sans-serif !important;
+    }
+        .navbar a:hover {
+        }
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
